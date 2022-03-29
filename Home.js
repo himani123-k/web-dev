@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { View, StyleSheet, Text } from "react-native";
 import AccountComponent from "./AccountComponent";
 import BillComponent from "./BillComponent";
+import Bill from './Bill';
 
 const Home = ({navigation, route}) => {
     return (
