@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { View, StyleSheet, Text, TextInput, Button } from "react-native";
 import { useState } from "react";
+import Bill from './Bill';
 
 const BillComponent = ({navigation, route}) => {
     const [onPeak, onPeakChange] = useState('0.0');
